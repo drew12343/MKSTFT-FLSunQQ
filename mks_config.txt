@@ -147,7 +147,7 @@ It will auto heat up if the current temp doesn't reach the target.
 
 >moreitem_button2_cmd:M290 Z0.05;M665 D-0.05;M500;
 
->moreitem_button3_cmd:M665 A;M500;
+>moreitem_button3_cmd:M665 A;M500;G92 Z0;
 
 >moreitem_button4_cmd:M665 C0.76;M500;
 
